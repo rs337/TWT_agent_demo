@@ -6,7 +6,7 @@ from pydantic_ai.models.ollama import OllamaModel
 from pydantic_ai.providers.ollama import OllamaProvider
 
 model = OllamaModel(
-    "mistral",
+    "qwen3.5:2b",
     provider=OllamaProvider(base_url="http://localhost:11434/v1"),
 )
 
